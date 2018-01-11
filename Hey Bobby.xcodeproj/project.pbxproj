@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8DB1987AB80539CF1D45E94 /* Pods_Hey_Bobby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C593FA94815D3240FED15A /* Pods_Hey_Bobby.framework */; };
+		FA15ADD71F98B6A900A16881 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA15ADD61F98B6A900A16881 /* Colors.swift */; };
+		FA15ADD91F98B6CF00A16881 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA15ADD81F98B6CF00A16881 /* Keys.swift */; };
+		FA15ADDD1F98B80800A16881 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA15ADDB1F98B80800A16881 /* MainViewController.swift */; };
+		FA15ADE31F98BD3600A16881 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA15ADE21F98BD3600A16881 /* Theme.swift */; };
+		FA15ADE51F98BE0000A16881 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA15ADE41F98BE0000A16881 /* Localizable.strings */; };
+		FA15ADE91F98C82E00A16881 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA15ADE71F98C82E00A16881 /* AlertViewController.swift */; };
+		FA15ADEA1F98C82E00A16881 /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA15ADE81F98C82E00A16881 /* AlertViewController.xib */; };
+		FA354F721F98E63800015CD3 /* KeyringButtonsSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA354F711F98E63800015CD3 /* KeyringButtonsSetupViewController.swift */; };
+		FA354F751F98EEB700015CD3 /* Severity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA354F741F98EEB700015CD3 /* Severity.swift */; };
+		FA354F771F98EEDB00015CD3 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA354F761F98EEDB00015CD3 /* Alert.swift */; };
+		FA6C4B631F9C93D1003916EB /* BluetoothDeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C4B5E1F9C93D0003916EB /* BluetoothDeviceManager.swift */; };
+		FA6C4B641F9C93D1003916EB /* BluetoothDeviceManager+CBPeripheralDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C4B601F9C93D1003916EB /* BluetoothDeviceManager+CBPeripheralDelegate.swift */; };
+		FA6C4B651F9C93D1003916EB /* BluetoothDeviceManager+CBCentralManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C4B611F9C93D1003916EB /* BluetoothDeviceManager+CBCentralManagerDelegate.swift */; };
+		FA6C4B661F9C93D1003916EB /* BluetoothDeviceManager+BluetoothDeviceManagerDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C4B621F9C93D1003916EB /* BluetoothDeviceManager+BluetoothDeviceManagerDelegateProtocol.swift */; };
+		FA6C4B6A1F9C94DA003916EB /* MainViewController+BluetoothDeviceManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C4B691F9C94DA003916EB /* MainViewController+BluetoothDeviceManagerDelegate.swift */; };
+		FAA0D2FA1F9E4F820013E217 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA0D2F91F9E4F820013E217 /* Data.swift */; };
+		FAA0D2FC1F9E59A70013E217 /* CBPeripheral+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA0D2FB1F9E59A70013E217 /* CBPeripheral+Extensions.swift */; };
+		FAA0D2FE1F9E60800013E217 /* BluetoothServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA0D2FD1F9E60800013E217 /* BluetoothServices.swift */; };
+		FAF2F28C1FE9321F00C141FF /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF2F28B1FE9321F00C141FF /* Launch.storyboard */; };
+		FAF78E3B1F98B3DA00A5D359 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF78E3A1F98B3DA00A5D359 /* AppDelegate.swift */; };
+		FAF78E421F98B3DA00A5D359 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF78E411F98B3DA00A5D359 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		747D3AF69708D54BB4621BB1 /* Pods-Hey Bobby.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hey Bobby.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hey Bobby/Pods-Hey Bobby.debug.xcconfig"; sourceTree = "<group>"; };
+		99D5A9F0D286F2368A653A2A /* Pods-Hey Bobby.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hey Bobby.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hey Bobby/Pods-Hey Bobby.release.xcconfig"; sourceTree = "<group>"; };
+		A5C593FA94815D3240FED15A /* Pods_Hey_Bobby.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hey_Bobby.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA15ADD61F98B6A900A16881 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		FA15ADD81F98B6CF00A16881 /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		FA15ADDB1F98B80800A16881 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FA15ADE21F98BD3600A16881 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		FA15ADE41F98BE0000A16881 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		FA15ADE71F98C82E00A16881 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		FA15ADE81F98C82E00A16881 /* AlertViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertViewController.xib; sourceTree = "<group>"; };
+		FA354F711F98E63800015CD3 /* KeyringButtonsSetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyringButtonsSetupViewController.swift; sourceTree = "<group>"; };
+		FA354F741F98EEB700015CD3 /* Severity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Severity.swift; sourceTree = "<group>"; };
+		FA354F761F98EEDB00015CD3 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		FA6C4B5E1F9C93D0003916EB /* BluetoothDeviceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothDeviceManager.swift; sourceTree = "<group>"; };
+		FA6C4B601F9C93D1003916EB /* BluetoothDeviceManager+CBPeripheralDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BluetoothDeviceManager+CBPeripheralDelegate.swift"; sourceTree = "<group>"; };
+		FA6C4B611F9C93D1003916EB /* BluetoothDeviceManager+CBCentralManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BluetoothDeviceManager+CBCentralManagerDelegate.swift"; sourceTree = "<group>"; };
+		FA6C4B621F9C93D1003916EB /* BluetoothDeviceManager+BluetoothDeviceManagerDelegateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BluetoothDeviceManager+BluetoothDeviceManagerDelegateProtocol.swift"; sourceTree = "<group>"; };
+		FA6C4B691F9C94DA003916EB /* MainViewController+BluetoothDeviceManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+BluetoothDeviceManagerDelegate.swift"; sourceTree = "<group>"; };
+		FAA0D2F91F9E4F820013E217 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		FAA0D2FB1F9E59A70013E217 /* CBPeripheral+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CBPeripheral+Extensions.swift"; sourceTree = "<group>"; };
+		FAA0D2FD1F9E60800013E217 /* BluetoothServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothServices.swift; sourceTree = "<group>"; };
+		FAF2F28B1FE9321F00C141FF /* Launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
+		FAF78E371F98B3DA00A5D359 /* Hey Bobby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hey Bobby.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF78E3A1F98B3DA00A5D359 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAF78E411F98B3DA00A5D359 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAF78E461F98B3DA00A5D359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF78E341F98B3DA00A5D359 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8DB1987AB80539CF1D45E94 /* Pods_Hey_Bobby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E55B04D97CD0A5990E787A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5C593FA94815D3240FED15A /* Pods_Hey_Bobby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE9ACF32C80CEC07CE364D99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				747D3AF69708D54BB4621BB1 /* Pods-Hey Bobby.debug.xcconfig */,
+				99D5A9F0D286F2368A653A2A /* Pods-Hey Bobby.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA15ADDA1F98B71800A16881 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FAF78E3A1F98B3DA00A5D359 /* AppDelegate.swift */,
+				FA15ADD61F98B6A900A16881 /* Colors.swift */,
+				FA15ADD81F98B6CF00A16881 /* Keys.swift */,
+				FA15ADE21F98BD3600A16881 /* Theme.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FA15ADDF1F98BC8E00A16881 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FA15ADDB1F98B80800A16881 /* MainViewController.swift */,
+				FA6C4B691F9C94DA003916EB /* MainViewController+BluetoothDeviceManagerDelegate.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FA15ADE61F98C82200A16881 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				FA354F761F98EEDB00015CD3 /* Alert.swift */,
+				FA15ADE71F98C82E00A16881 /* AlertViewController.swift */,
+				FA15ADE81F98C82E00A16881 /* AlertViewController.xib */,
+				FA354F741F98EEB700015CD3 /* Severity.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		FA354F731F98E64100015CD3 /* Keyring Button */ = {
+			isa = PBXGroup;
+			children = (
+				FA354F711F98E63800015CD3 /* KeyringButtonsSetupViewController.swift */,
+			);
+			path = "Keyring Button";
+			sourceTree = "<group>";
+		};
+		FA354F781F98F53900015CD3 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				FA6C4B621F9C93D1003916EB /* BluetoothDeviceManager+BluetoothDeviceManagerDelegateProtocol.swift */,
+				FA6C4B611F9C93D1003916EB /* BluetoothDeviceManager+CBCentralManagerDelegate.swift */,
+				FA6C4B601F9C93D1003916EB /* BluetoothDeviceManager+CBPeripheralDelegate.swift */,
+				FA6C4B5E1F9C93D0003916EB /* BluetoothDeviceManager.swift */,
+				FAA0D2FB1F9E59A70013E217 /* CBPeripheral+Extensions.swift */,
+				FAA0D2FD1F9E60800013E217 /* BluetoothServices.swift */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		FAA0D2F81F9E4F7D0013E217 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FAA0D2F91F9E4F820013E217 /* Data.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FAF78E2E1F98B3DA00A5D359 = {
+			isa = PBXGroup;
+			children = (
+				6E55B04D97CD0A5990E787A6 /* Frameworks */,
+				FAF78E391F98B3DA00A5D359 /* Hey Bobby */,
+				DE9ACF32C80CEC07CE364D99 /* Pods */,
+				FAF78E381F98B3DA00A5D359 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF78E381F98B3DA00A5D359 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF78E371F98B3DA00A5D359 /* Hey Bobby.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF78E391F98B3DA00A5D359 /* Hey Bobby */ = {
+			isa = PBXGroup;
+			children = (
+				FAA0D2F81F9E4F7D0013E217 /* Extensions */,
+				FA15ADDA1F98B71800A16881 /* App */,
+				FA354F781F98F53900015CD3 /* Bluetooth */,
+				FAF78E4D1F98B44500A5D359 /* Supporting Files */,
+				FAF78E4C1F98B43F00A5D359 /* View Controllers */,
+			);
+			path = "Hey Bobby";
+			sourceTree = "<group>";
+		};
+		FAF78E4C1F98B43F00A5D359 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA15ADE61F98C82200A16881 /* Alert */,
+				FA354F731F98E64100015CD3 /* Keyring Button */,
+				FA15ADDF1F98BC8E00A16881 /* Main */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FAF78E4D1F98B44500A5D359 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAF78E411F98B3DA00A5D359 /* Assets.xcassets */,
+				FAF78E461F98B3DA00A5D359 /* Info.plist */,
+				FA15ADE41F98BE0000A16881 /* Localizable.strings */,
+				FAF2F28B1FE9321F00C141FF /* Launch.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF78E361F98B3DA00A5D359 /* Hey Bobby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF78E491F98B3DA00A5D359 /* Build configuration list for PBXNativeTarget "Hey Bobby" */;
+			buildPhases = (
+				D18E790B11ACD75CB800D0C5 /* [CP] Check Pods Manifest.lock */,
+				FAF78E331F98B3DA00A5D359 /* Sources */,
+				FAF78E341F98B3DA00A5D359 /* Frameworks */,
+				FAF78E351F98B3DA00A5D359 /* Resources */,
+				B471545D79E501F188A42B5F /* [CP] Embed Pods Frameworks */,
+				FFF64101C9DB9829BD1603EB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hey Bobby";
+			productName = "Find My Bobby";
+			productReference = FAF78E371F98B3DA00A5D359 /* Hey Bobby.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF78E2F1F98B3DA00A5D359 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Akram Hussein";
+				TargetAttributes = {
+					FAF78E361F98B3DA00A5D359 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = FAF78E321F98B3DA00A5D359 /* Build configuration list for PBXProject "Hey Bobby" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAF78E2E1F98B3DA00A5D359;
+			productRefGroup = FAF78E381F98B3DA00A5D359 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF78E361F98B3DA00A5D359 /* Hey Bobby */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF78E351F98B3DA00A5D359 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA15ADE51F98BE0000A16881 /* Localizable.strings in Resources */,
+				FAF78E421F98B3DA00A5D359 /* Assets.xcassets in Resources */,
+				FA15ADEA1F98C82E00A16881 /* AlertViewController.xib in Resources */,
+				FAF2F28C1FE9321F00C141FF /* Launch.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B471545D79E501F188A42B5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hey Bobby/Pods-Hey Bobby-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AHUtils/AHUtils.framework",
+				"${BUILT_PRODUCTS_DIR}/DefaultsKit/DefaultsKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AHUtils.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DefaultsKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hey Bobby/Pods-Hey Bobby-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D18E790B11ACD75CB800D0C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hey Bobby-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FFF64101C9DB9829BD1603EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hey Bobby/Pods-Hey Bobby-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF78E331F98B3DA00A5D359 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6C4B651F9C93D1003916EB /* BluetoothDeviceManager+CBCentralManagerDelegate.swift in Sources */,
+				FA6C4B631F9C93D1003916EB /* BluetoothDeviceManager.swift in Sources */,
+				FA354F771F98EEDB00015CD3 /* Alert.swift in Sources */,
+				FA354F721F98E63800015CD3 /* KeyringButtonsSetupViewController.swift in Sources */,
+				FAA0D2FE1F9E60800013E217 /* BluetoothServices.swift in Sources */,
+				FAA0D2FC1F9E59A70013E217 /* CBPeripheral+Extensions.swift in Sources */,
+				FA15ADD91F98B6CF00A16881 /* Keys.swift in Sources */,
+				FA15ADE91F98C82E00A16881 /* AlertViewController.swift in Sources */,
+				FA15ADD71F98B6A900A16881 /* Colors.swift in Sources */,
+				FA6C4B6A1F9C94DA003916EB /* MainViewController+BluetoothDeviceManagerDelegate.swift in Sources */,
+				FA354F751F98EEB700015CD3 /* Severity.swift in Sources */,
+				FA15ADE31F98BD3600A16881 /* Theme.swift in Sources */,
+				FA6C4B641F9C93D1003916EB /* BluetoothDeviceManager+CBPeripheralDelegate.swift in Sources */,
+				FA15ADDD1F98B80800A16881 /* MainViewController.swift in Sources */,
+				FA6C4B661F9C93D1003916EB /* BluetoothDeviceManager+BluetoothDeviceManagerDelegateProtocol.swift in Sources */,
+				FAF78E3B1F98B3DA00A5D359 /* AppDelegate.swift in Sources */,
+				FAA0D2FA1F9E4F820013E217 /* Data.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAF78E471F98B3DA00A5D359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAF78E481F98B3DA00A5D359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAF78E4A1F98B3DA00A5D359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 747D3AF69708D54BB4621BB1 /* Pods-Hey Bobby.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Hey Bobby/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AkramHussein.Hey-Bobby";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAF78E4B1F98B3DA00A5D359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99D5A9F0D286F2368A653A2A /* Pods-Hey Bobby.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Hey Bobby/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AkramHussein.Hey-Bobby";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF78E321F98B3DA00A5D359 /* Build configuration list for PBXProject "Hey Bobby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF78E471F98B3DA00A5D359 /* Debug */,
+				FAF78E481F98B3DA00A5D359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF78E491F98B3DA00A5D359 /* Build configuration list for PBXNativeTarget "Hey Bobby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF78E4A1F98B3DA00A5D359 /* Debug */,
+				FAF78E4B1F98B3DA00A5D359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF78E2F1F98B3DA00A5D359 /* Project object */;
+}

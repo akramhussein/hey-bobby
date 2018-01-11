@@ -1,0 +1,61 @@
+/* 
+  Localizable.strings
+  Hey Bobby
+
+  Created by Akram Hussein on 19/10/2017.
+  Copyright © 2017 Akram Hussein. All rights reserved.
+*/
+
+/* General */
+
+"Save" = "Save";
+"BackgroundRefresh.Denied" = "Hey Bobby needs Background App Refresh enabled. Go to Setting to enable it.";
+
+/* Alerts */
+
+"Alert.OK" = "OK";
+"Alert.OpenSettings" = "Open Settings";
+"Alert.Cancel" = "Cancel";
+"Alert.Yes" = "Yes";
+"Alert.No" = "No";
+
+/* Main */
+
+"Main.Title" = "Hey Bobby";
+"Main.Enable" = "Enable";
+"Main.Setup" = "Setup";
+
+"Main.KeyringButtons.Title" = "Enable Keyring Buttons";
+
+/* Alert */
+
+"Alert.Title" = "Alert";
+"Alert.Acknowledge" = "Acknowledge";
+
+/* Keyring Buttons */
+
+"Main.KeyringButtons.Footer" = "To turn ON Keyring button, press and hold until it beeps twice and flashes blue.\n\nTo turn OFF Keyring button, press and hold until it beeps for a long period and flashes blue.\n\nPlease ensure Bluetooth is set to ON for the iPhone.";
+
+"KeyringButtonsSetup.Title" = "Keyring Buttons";
+
+"KeyringButtonsSetup.Placeholder" = "Enter message to appear when alerted";
+
+"KeyringButtonsSetup.Low.Title" = "Low Severity (1 click)";
+"KeyringButtonsSetup.Low.DefaultValue" = "Your attention is required";
+
+"KeyringButtonsSetup.Medium.Title" = "Medium Severity (2 clicks)";
+"KeyringButtonsSetup.Medium.DefaultValue" = "URGENT: Your attention is urgently required";
+
+"KeyringButtonsSetup.High.Title" = "High Severity (3 clicks)";
+"KeyringButtonsSetup.High.DefaultValue" = "EMERGENCY: Your attention is urgently required";
+
+"KeyringButtonsSetup.AlertMessage" = "Alert Message";
+"KeyringButtonsSetup.AddDevices" = "Add Devices";
+
+"KeyringButton.Connected" = "Connected to Keyring Button";
+"KeyringButton.Disconnected" = "Disconnected from Keyring Button";
+
+/* Bluetooth */
+"Bluetooth.RegioningOrMonitoringAlert.Title" = "Device does not support Beacon Regioning or Monitoring";
+"Bluetooth.RegioningOrMonitoringAlert.Message" = "In order to be notified about Worksites the device must support Beacon Monitoring and Beacon Ranging";
+

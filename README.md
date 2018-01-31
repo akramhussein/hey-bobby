@@ -56,7 +56,7 @@ Emergency
 
 6. Connect your iPad or iPhone and select it in Xcode's Product menu > Destination
 
-7. Press CMD+R or Product > Run to install `1Hey Bobby`
+7. Press CMD+R or Product > Run to install `Hey Bobby`
 
 ## License
 
